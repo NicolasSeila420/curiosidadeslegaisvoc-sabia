@@ -44,7 +44,14 @@ main {
     justify-content: center;
 }
 
-
+.curiosidade-card{
+    background-color:  #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    width: 300px;
+    transition: transform 0.3s ease;
+}
 
 .curiosidade-card h3{
     transform: scale(1.05);
