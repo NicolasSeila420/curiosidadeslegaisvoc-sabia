@@ -4,6 +4,14 @@ body {
     color: #332f2e;
 }
 
+header {
+    background-color: #a96dff;
+    color: #332f2e ;
+    text-align: center;
+    padding: 1.5rem 1rem;
+
+}
+
 header h1 {
     margin: 0;
     font-size: 2rem;
