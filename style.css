@@ -13,6 +13,13 @@ header {
 
 }
 
+
+li {
+  width: calc((100vw / 3) - 20px);
+  display: inline-block;
+}
+
+
 footer {
     background-color: #a96dff;
       color: #332f2e ;
@@ -72,10 +79,7 @@ main {
 img {
   max-width: 100%;
 }
-ul {
-  padding: 0;
-  list-style-type: none;
-}
+
 
 
 
