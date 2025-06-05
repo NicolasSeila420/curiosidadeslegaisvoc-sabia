@@ -68,6 +68,11 @@ main {
 }
 
 
+ul {
+  columns: 3;
+}
+
+
 
 .curiosidade-card h3{
     transform: scale(1.05);
