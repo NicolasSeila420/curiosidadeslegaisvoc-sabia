@@ -34,6 +34,10 @@ nav {
     text-align: center;
 }
 
+nav ul li a:hover {
+    color: #A2E0EC
+}
+
 nav a {
     color: rgb(30, 26, 26);
     text-decoration: none;
