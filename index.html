@@ -48,6 +48,20 @@
   <iframe src="https://www.youtube.com/embed/w-WuhiuEOQc?si=Sok-L-_7a7UXztdB" width="400" height="300" allowfullscreen></iframe>
 
 </section>
+ <script>
+    function getRandomColor() {
+      var letters = '0123456789ABCDEF';
+      var color = '#';
+      for (var i = 0; i < 6; i++) {
+        color += letters[Math.floor(Math.random() * 16)];
+      }
+      return color;
+    }
+    
+    window.onload = function() {
+      document.getElementById("glow").style.textShadow = `0 0 10px ${getRandomColor()}, 0 0 20px ${getRandomColor()}, 0 0 30px ${getRandomColor()}`;
+    };
+  </script>
   <h2> Fotos relacionadas a este país:</h2>
 <section class="galeria" id="galeria">
   <img src="terr.jpg" alt="church">
